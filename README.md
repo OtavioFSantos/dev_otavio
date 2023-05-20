@@ -1,4 +1,4 @@
-# 3d_portfolio
+# Portfolio 3D
 Portfolio with 3D objects and animations
 
 ## Screenshots
