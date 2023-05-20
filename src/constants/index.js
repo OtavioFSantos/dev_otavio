@@ -166,7 +166,7 @@ const projects = [
   {
     name: "Task Tracker",
     description:
-      "Task tracker, being able to create projects, which have sets of tasks that can be timed.",
+      "Task tracker, being able to create projects, which have sets of tasks that can be timed and assigned to projects.",
     tags: [
       {
         name: "vue",
