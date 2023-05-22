@@ -13,21 +13,19 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={styles.heroHeadText}>
             Hi, I'm <span className="violet-text-gradient">Otávio</span>!
           </h1>
-          <p
-            className={`${styles.heroSubText} mt-2 text-white-100 text-justify`}
-          >
+          <p className={styles.heroSubText}>
             Graduating in computer science at UFPel
             <br className="sm:block hidden" /> and programming enthusiast.
           </p>
         </div>
       </div>
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className={styles.transitionWhole}>
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className={styles.transitionBorder}>
             <motion.div
               animate={{ y: [0, 24, 0] }}
               transition={{
@@ -35,7 +33,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
+              className={styles.transitionBall}
             />
           </div>
         </a>
