@@ -1,6 +1,7 @@
 {
-  "name": "3d-portfolio",
-  "private": true,
+  "homepage": "https://otaviofsantos.github.io/dev_otavio",
+  "name": "dev_otavio",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
