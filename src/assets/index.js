@@ -21,8 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import vue from "./tech/vue.png";
 import postgre from "./tech/postgre.png";
+import angular from "./tech/angular.png";
 
-import vitech from "./company/vitech.png";
+import portoaris from "./company/portoaris.png";
 import greendoors from "./company/greendoors.png";
 
 import cinema from "./cinema.png";
@@ -38,13 +39,14 @@ export {
   postgre,
   flutter,
   next,
-  vitech,
+  portoaris,
   greendoors,
   cinema,
   twitter,
   backend,
   frontend,
   mobile,
+  angular,
   web,
   github,
   menu,

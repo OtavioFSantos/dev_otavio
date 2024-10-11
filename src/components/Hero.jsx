@@ -17,8 +17,8 @@ const Hero = () => {
             Hi, I'm <span className="violet-text-gradient">Otávio</span>!
           </h1>
           <p className={styles.heroSubText}>
-            Graduating in computer science at UFPel
-            <br className="sm:block hidden" /> and programming enthusiast.
+            Full-stack developer
+            <br className="sm:block hidden" /> and art enthusiast.
           </p>
         </div>
       </div>

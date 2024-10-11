@@ -13,7 +13,6 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  source_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -31,18 +30,6 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
-          </div>
         </div>
 
         <div className="mt-5">
@@ -67,17 +54,16 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>Projects</h2>
-        <p className={styles.sectionSubText}>My Work</p>
+        <p className={styles.sectionSubText}>My personal projects</p>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-xl leading-[30px] text-justify"
+          className="mt-3 text-secondary text-[17px] leading-[30px] text-justify"
         >
-          These are some of the projects I've developed in my spare time over
-          time. Each project has a brief description and a link to its
-          repository on my github.
+          These are some of the projects I've developed in my spare time over the
+          time.
         </motion.p>
       </div>
 

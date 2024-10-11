@@ -40,15 +40,14 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-xl leading-[30px] text-justify"
+        className="mt-4 text-secondary text-[17px] leading-[30px] text-justify"
       >
-        Dedicated Junior Developer, attentive and motivated to learn new
-        technologies, as well as teach the ones he knows. Graduating in Computer
-        Science at UFPel with graduation scheduled for 2024. Aiming to acquire
-        professional experience in the area and proficiency in technologies.
+        I’ve developed and launched mobile apps for both Android and iOS, as well as web applications using frameworks like Angular and React. I’ve worked across the full stack, from crafting user-friendly front-ends to building scalable back-end services, designing RESTful APIs, and cloud functions.
+        <br className="sm:block hidden" />
+        I’m comfortable with every phase of the software development process, from problem-solving and designing architecture, to writing clean code, testing, and deploying the final product. I’ve worked with cloud platforms like Google Cloud Platform (GCP) and Firebase, where I’ve integrated DevOps practices like CI/CD pipelines to improve development efficiency. I also have experience with a range of database systems, ensuring that applications are built on solid, reliable data structures.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10" style={{ justifyContent: 'center' }}>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

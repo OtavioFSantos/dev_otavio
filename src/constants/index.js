@@ -2,26 +2,18 @@ import {
   mobile,
   backend,
   frontend,
-  web,
-  flutter,
-  javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  tailwind,
   nodejs,
-  git,
-  c,
   next,
   postgre,
   python,
-  vue,
   cinema,
-  vitech,
   tracker,
   twitter,
+  angular,
   greendoors,
+  portoaris
 } from "../assets";
 
 export const navLinks = [
@@ -31,7 +23,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -41,20 +33,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "Flutter Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
     title: "Frontend Developer",
     icon: frontend,
+  },
+  {
+    title: "Mobile Developer",
+    icon: mobile,
   },
 ];
 
@@ -64,8 +52,8 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "Flutter",
-    icon: flutter,
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "React JS",
@@ -91,25 +79,66 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Researcher",
-    company_name: "ViTech",
-    icon: vitech,
-    iconBg: "#383E56",
-    date: "August 2021 - August 2022",
+    title: "Full-stack Developer",
+    company_name: "Greendoors",
+    icon: greendoors,
+    iconBg: "#fff",
+    date: "May 2023 - Present",
     points: [
-      "Encode omnidirectional videos using state-of-the-art video encoding.",
-      "Develop and update python scripts.",
-      "Collaborate with researchers and doctors.",
-      "Develop presentations, graphics and statistics on the information obtained.",
+      "Designed and implemented two web applications, utilizing TypeScript and Angular for the frontend, and Node.js with Express for the backend. Focused on creating modular and maintainable code structures, while integrating strong authentication and authorization mechanisms;",
+      "Integrated cloud-based services like Google Cloud Functions to automate workflows, manage notifications, and streamline business operations, significantly reducing manual tasks and improving overall efficiency;",
+      "Developed and launched a mobile application for both the App Store and Google Play, using Dart and FlutterFlow, with integration to Google Cloud Platform and Firestore for managing data in real time;",
+      "Involved in every stage of the development lifecycle, from gathering initial requirements and designing solutions to deployment, monitoring, and ongoing maintenance.",
+    ],
+    tags: [
+      {
+        name: "angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "gcp",
+        color: "violet-text-gradient",
+      },
     ],
   },
   {
-    title: "Flutter Developer",
-    company_name: "Greendoors",
-    icon: greendoors,
-    iconBg: "#E6DEDD",
-    date: "May 2023 - Present",
-    points: ["...", "...", "...", "..."],
+    title: "Mobile Developer",
+    company_name: "Portoaris",
+    icon: portoaris,
+    iconBg: "#fff",
+    date: "April 2024 - Present",
+    points: [
+      "Led projects independently, managing everything from initial requirements gathering to design, development, testing, deployment, and maintenance;",
+      "Built and deployed mobile applications using FlutterFlow with API integrations, focusing on financial services and leveraging the APIs of Banco Inter to enable functionalities such as payment processing, account management, and secure data transactions;",
+      "Architected and developed back-end logic for API integrations, utilizing custom endpoints, webhooks and automating workflows to enhance application efficiency and reduce manual processes;",
+      "Designed and implemented robust database architectures, handling both relational and NoSQL databases to accommodate diverse application requirements, ensuring data consistency, security, and performance."
+    ],
+    tags: [
+      {
+        name: "dart",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "flutterflow",
+        color: "violet-text-gradient",
+      },
+    ],
   },
 ];
 
@@ -133,7 +162,6 @@ const projects = [
       },
     ],
     image: twitter,
-    source_code_link: "https://github.com/OtavioFSantos/Twitter-Clone",
   },
   {
     name: "Task Tracker",
@@ -154,7 +182,6 @@ const projects = [
       },
     ],
     image: tracker,
-    source_code_link: "https://github.com/OtavioFSantos/alura-tracker",
   },
   {
     name: "Cinema",
@@ -175,7 +202,6 @@ const projects = [
       },
     ],
     image: cinema,
-    source_code_link: "https://github.com/OtavioFSantos/cinema-react",
   },
 ];
 
